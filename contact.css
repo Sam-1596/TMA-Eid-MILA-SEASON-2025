@@ -1,0 +1,50 @@
+body{
+    background-image: url(contact.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav {
+        background: #333;
+        padding: 10px;
+        text-align: center;
+    }
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    nav ul li {
+        display: inline;
+        margin: 0 15px;
+    }
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+    }
+    .entry{
+        margin-top: 60px;
+        color: white;
+    }
+    .entry h1{
+       text-align: center;
+
+    }
+    .entry .card{
+        background-color: rgba(22, 21, 21, 0.781);
+    }
+    .entry p{
+        text-align: center;
+    }
+    .entry h5{
+        text-align: center;
+    }
+    .entry input{
+        text-align: center;
+        background-color:rgba(89, 86, 86, 0.349);
+        color:white;
+    }
+    label{
+        margin: 0 auto;
+        gap: 30px;
+    }
