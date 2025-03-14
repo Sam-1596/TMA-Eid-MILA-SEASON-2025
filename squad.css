@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    /* background: url(stadium.jpeg) no-repeat center center/cover; */
+    padding: 20px;
+    color: white;
+    background: linear-gradient(45deg, #ff9a9e, #fad0c4, #fad0c4, #ffdde1);
+}
+.heading {
+    margin-top: 40px;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px;
+    background: linear-gradient(90deg, #ff5733, #ffd700, #ff5733);
+    display: inline-block;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    color: black;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.8);
+}
+.team-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.team {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    width: 320px;
+    color: black;
+}
+h2 {
+    color: rgb(0, 0, 0);
+    background: #ff5733;
+    padding: 10px;
+    border-radius: 10px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    padding: 10px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid #ddd;
+    color: white;
+}
+.html-team {
+    border-left: 5px solid #ff5733;
+    background-color: #c0051e;
+}
+.css-team {
+    border-left: 5px solid #3498db;
+    background-color: #001e31;
+}
+img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ddd;
+}
+nav {
+    background: #333;
+    padding: 10px;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
