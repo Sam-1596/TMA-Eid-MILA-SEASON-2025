@@ -1,0 +1,53 @@
+body{
+    background-image: url(bat.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ section {
+    margin: 20px auto;
+    margin-top: 110px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    width: 80%;
+    text-align: center;
+    background-color: #292828c0;
+    color: white;
+}
+nav {
+    background: #333;
+    padding: 10px;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav li{
+    list-style: none;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+    list-style: none;
+
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.match-info {
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.7);
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color:white;
+}
+span{
+    color: red;
+}
